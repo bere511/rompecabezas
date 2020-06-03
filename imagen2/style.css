@@ -1,0 +1,52 @@
+#entrono
+{
+	display: block;
+	margin: 0 auto;
+}
+#fondo
+{
+	opacity: 0.3;
+}
+
+body{
+	background-color:steelblue;
+	color:black;
+	font-family:Baskerville Old Face;
+	text-align:justify;
+	margin-right:10px;
+	font-size:15px;
+}
+
+h1{
+	color:gold;
+	font-family: Cooper Black;
+}
+
+/**************************************** MENU ****************************************/
+
+.menu{
+	font-family: Cooper Black;
+	list-style: none;
+	padding: 0;
+	background: deepskyblue;
+	margin:auto;
+}
+
+.menu li a{
+	font-family: Cooper Black;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	font-family: Cooper Black;
+	display:inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	font-family: Cooper Black;
+	background:gold;
+}

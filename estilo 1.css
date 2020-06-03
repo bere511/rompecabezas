@@ -1,0 +1,131 @@
+
+
+body{
+	background-color:steelblue;
+	color:black;
+	font-family:Baskerville Old Face;
+	text-align:justify;
+	margin-right:10px;
+	font-size:15px;
+}
+
+h1{
+	color:gold;
+	font-family: Cooper Black;
+}
+
+/**************************************** MENU ****************************************/
+
+.menu{
+	font-family: Cooper Black;
+	list-style: none;
+	padding: 0;
+	background: deepskyblue;
+	margin:auto;
+}
+
+.menu li a{
+	font-family: Cooper Black;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	font-family: Cooper Black;
+	display:inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	font-family: Cooper Black;
+	background:gold;
+}
+
+
+/***************************************INDEX 1******************************************/
+
+#img2{
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.tb{
+	background:rgba(135,206,235,.3);
+	border-radius:10px;
+	margin:0px;
+	padding: 30px;
+	text-align:justify;
+	font-family:Baskerville Old Face;
+}
+
+.tb:hover{
+	background:rgba(255,255,0,.11);
+	color:white;
+}
+
+h1:hover{
+	color:navy;
+}
+
+/***************************************INDEX 3******************************************/
+
+#img2{
+	float:left;
+	margin-right: 80px;
+	margin-left: 40px;
+	background: rgb(255, 255, 0);
+	transition: all 500ms ease-out;
+}
+
+#img2:hover{
+border: 5px solid #FFD700;
+visibility: visible;
+}
+
+h2{
+	font-family:Baskerville Old Face;
+	color: gold;
+}
+
+/***************************************INDEX 4******************************************/
+
+.ms1{
+	background:rgba(0,0,0,.5);
+	font-family:Baskerville Old Face;
+}
+
+#campo1{
+	background:rgba(176, 224, 230);
+	border:none;
+	outline:none;
+	border-bottom:2px solid #1E90FF;
+	width:50%;
+	height: 80px;
+	padding: 12px;
+	margin-bottom:10px;
+	border-radius: 2px;
+	font-size: 14px;
+	color:black;
+	font-family:Baskerville Old Face;
+}
+
+#btn{
+	width:22%;
+	font-family:Baskerville Old Face;
+	color:#fff;
+	outline: none;
+	background:dodgerblue;
+	font-size:16px;
+	border:none;
+	padding:15px 0;
+	cursor:pointer;
+}
+
+#btn:hover{
+	background:blue;
+}

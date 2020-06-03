@@ -1,0 +1,100 @@
+body{
+	background-color:steelblue;
+	color:black;
+	font-family:Baskerville Old Face;
+	text-align:justify;
+	margin-right:10px;
+	font-size:15px;
+	background: url(Imagenes/img1.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+h1{
+	color:gold;
+	font-family: Cooper Black;
+}
+
+.menu{
+	font-family: Cooper Black;
+	list-style: none;
+	padding: 0;
+	background: deepskyblue;
+	margin:auto;
+}
+
+.menu li a{
+	font-family: Cooper Black;
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	font-family: Cooper Black;
+	display:inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	font-family: Cooper Black;
+	background:gold;
+}
+
+/***************************************INDEX 2******************************************/
+
+.tb1{
+	background:rgba(0,0,0,.5);
+	border-radius:10px;
+	margin:0px;
+	padding: 30px;
+	width:450px;
+	font-family:Baskerville Old Face;
+}
+
+#campo1{
+	background:rgba(176, 224, 230);
+	border:none;
+	outline:none;
+	border-bottom:2px solid #1E90FF;
+	width:210%;
+	height: 20px;
+	padding: 12px;
+	margin-bottom:10px;
+	border-radius: 2px;
+	font-size: 14px;
+	color:black;
+	font-family:Baskerville Old Face;
+}
+
+#campo2{
+	background:rgba(176, 224, 230);
+	border:none;
+	outline:none;
+	border-bottom:2px solid #1E90FF;
+	width:210%;
+	height: 50px;
+	padding: 12px;
+	margin-bottom:10px;
+	border-radius: 2px;
+	font-size: 14px;
+	color:black;
+	font-family:Baskerville Old Face;
+}
+
+#btn{
+	width:222%;
+	font-family:Baskerville Old Face;
+	color:#fff;
+	outline: none;
+	background:dodgerblue;
+	font-size:16px;
+	border:none;
+	padding:15px 0;
+	cursor:pointer;
+}
+
+#btn:hover{
+	background:blue;
+}
